@@ -1,4 +1,15 @@
 #  H1-Viisikko
+
+Tämä harjoitus on tehty torstaina 22/10/2025
+
+Käytetty työasema
+
+Laitteen nimi: LAPTOP-7I2PFE0L
+
+Käyttöjärjestelmä Windows 11
+
+Prosessori: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz (1.80 GHz)
+
 ## Tiivistelmät
 - Saltin avulla määritellään esim palvelimen asetukset koodina (IaC)
 - Uusi apt arkisto koostuu 2 tiedostosta, PGP-puplic key sekä sources.list
@@ -99,7 +110,7 @@ Luo tiedoston /tmp/juu VAIN jos sitä ei ole olemassa
 
 $ sudo salt-call --local -l info state.single cmd.run 'touch /tmp/juu' creates="/tmp/juu"
 
-## c.) Idempotenssi 19:10-30
+## c.) Idempotenssi 19:10-19:30
 Esimerkki: 
 $sudo salt-call --local -l info state.single cmd.run 'touch /tmp/juu' creates="/tmp/juu"
 
